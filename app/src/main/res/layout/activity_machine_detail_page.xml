@@ -4,34 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/gradient_background_mainactivity"
-    tools:context=".mainPage">
-
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="166dp"
-        android:layout_height="104dp"
-        android:layout_marginStart="122dp"
-        android:layout_marginTop="30dp"
-        android:layout_marginEnd="122dp"
-        android:layout_marginBottom="15dp"
-        app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/logo" />
+    tools:context=".machine_detail_page">
 
     <LinearLayout
-        android:id="@+id/linearLayout3"
+        android:id="@+id/machineNameLinearLayout"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="30dp"
         android:layout_marginBottom="15dp"
         android:orientation="horizontal"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3">
+        app:layout_constraintTop_toTopOf="parent">
 
         <TextView
             android:id="@+id/machineNameTextView"
@@ -60,7 +45,7 @@
         app:layout_constraintBottom_toTopOf="@+id/linearLayout4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+        app:layout_constraintTop_toBottomOf="@+id/machineNameLinearLayout">
 
         <TextView
             android:id="@+id/machineSerialNumberTextView"
@@ -115,27 +100,34 @@
         android:layout_marginStart="10dp"
         android:layout_marginTop="15dp"
         android:layout_marginEnd="10dp"
-        android:layout_marginBottom="20dp"
+        android:layout_marginBottom="5dp"
         android:text="Machine Using Information Machine Using Information Machine Using Information Machine Using Information Machine Using Information Machine Using Information Machine Using Information Machine Using Information Machine Using Information Machine Using Information "
         android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/backButton"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout7"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout4" />
 
-    <Button
-        android:id="@+id/backButton"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:id="@+id/linearLayout7"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="20dp"
+        android:layout_marginTop="5dp"
         android:layout_marginBottom="20dp"
-        android:background="#6B0091EA"
-        android:text="Back"
+        android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/machineUsingInformationTextView" />
+        app:layout_constraintTop_toBottomOf="@+id/machineUsingInformationTextView">
+
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:text="Back" />
+
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

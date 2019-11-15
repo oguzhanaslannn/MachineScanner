@@ -1,13 +1,14 @@
 package com.example.machinescanner;
 
 import androidx.appcompat.app.AppCompatActivity;
+
 import android.os.Bundle;
 
-public class login_page extends AppCompatActivity {
+public class about_app_page extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login_page);
+        setContentView(R.layout.activity_about_app_page);
     }
 }

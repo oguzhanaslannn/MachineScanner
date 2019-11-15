@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/gradient_background_mainactivity"
     tools:context=".signup_page">
 
     <EditText
@@ -137,7 +136,6 @@
             android:layout_height="match_parent"
             android:layout_marginStart="20dp"
             android:layout_marginRight="10dp"
-            android:background="#6B0091EA"
             android:text="Back"
             tools:layout_marginRight="10dp" />
 
@@ -147,7 +145,6 @@
             android:layout_height="match_parent"
             android:layout_marginLeft="10dp"
             android:layout_marginEnd="20dp"
-            android:background="#6B0091EA"
             android:text="Save"
             tools:layout_marginLeft="10dp" />
     </LinearLayout>
