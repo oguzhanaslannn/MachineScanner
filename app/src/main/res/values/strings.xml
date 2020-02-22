@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">MachineScanner</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="save">Save</string>
+    <string name="generate">Generate</string>
+    <string name="enter_text">Enter Text</string>
+    <string name="value_required">Value Required</string>
+    <string name="Profile">Profile</string>
+    <string name="GenerateQRCode">Generate</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

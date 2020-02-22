@@ -24,7 +24,7 @@ android:background="@drawable/gradient_background_mainactivity"-->
     app:layout_constraintEnd_toEndOf="parent"
     app:layout_constraintStart_toStartOf="parent"
     app:layout_constraintTop_toTopOf="parent"
-    app:srcCompat="@drawable/logo" />
+    app:srcCompat="@drawable/mslogo" />
 
 <EditText
     android:id="@+id/editText"
@@ -71,7 +71,7 @@ android:background="@drawable/gradient_background_mainactivity"-->
     app:layout_constraintTop_toBottomOf="@+id/editText2">
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/signInButton"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginStart="10dp"
@@ -86,5 +86,20 @@ android:background="@drawable/gradient_background_mainactivity"-->
         android:layout_weight="1"
         android:text="Sign Up" />
 </LinearLayout>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="254dp"
+        android:layout_marginBottom="169dp"
+        android:background="@null"
+        android:text="Forgot Password?"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
