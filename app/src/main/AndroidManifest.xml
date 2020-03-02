@@ -17,8 +17,8 @@
         <activity android:name=".setting_page" />
         <activity android:name=".machine_detail_page" />
         <activity android:name=".signup_page" />
-        <activity android:name=".login_page"/>
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".login_page">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

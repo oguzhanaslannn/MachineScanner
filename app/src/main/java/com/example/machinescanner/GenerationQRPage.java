@@ -91,8 +91,9 @@ public class GenerationQRPage extends Fragment {
                     inputValue, null,
                     QRGContents.Type.TEXT,
                     smallerDimension);
-            qrgEncoder.setColorBlack(Color.BLACK);
+            qrgEncoder.setColorBlack(Color.parseColor("#ffbd45"));
             qrgEncoder.setColorWhite(Color.WHITE);
+
             try {
                 bitmap = qrgEncoder.getBitmap();
                 qrImage.setImageBitmap(bitmap);

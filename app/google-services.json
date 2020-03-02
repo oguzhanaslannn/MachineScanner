@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "995445022743",
+    "firebase_url": "https://machinescanner-97ae4.firebaseio.com",
+    "project_id": "machinescanner-97ae4",
+    "storage_bucket": "machinescanner-97ae4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:995445022743:android:323a0ae5110ff55e4e3c52",
+        "android_client_info": {
+          "package_name": "com.example.machinescanner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "995445022743-3rkvj7220002navlio45l4hmjgfoe7t8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCN_UEl7sQc7Mh6ZFta_eoyPnCx6wpU_yg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "995445022743-3rkvj7220002navlio45l4hmjgfoe7t8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
